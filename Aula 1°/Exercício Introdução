@@ -1,0 +1,49 @@
+<?php
+    $nome = "Davi ";
+    $idade = 20;
+    $altura = 1.80;
+    $ativo = true;
+
+    var_dump($nome);
+
+    $a = 10;
+    $b = 3;
+
+    echo "<br>";
+    echo "10 + 3 é igual a: ";
+    echo $a + $b;
+    echo "<br>";
+    echo "10 % 3 é igual a: ";
+    echo $a % $b;
+
+    $C = 20;
+    $F = $C * 1.8 + 32;
+
+    echo "<br>";
+    echo "F = 20 x 1.8 + 32";
+    echo "<br>";
+    echo "É igual a: "; 
+    echo $F;
+    echo "<br>";
+    
+    $distancia = 40;
+    $litros = 5;
+    $medio = $distancia / $litros;
+
+    echo "O consumo médio de um carro com 5 litros de combustível em uma distância de 40 Km, é igual a: ";
+    echo $medio;
+    echo "<br>";
+
+    $nota1 = 2;
+    $nota2 = 1;
+    $nota3 = 2;
+    $result = $nota1 + $nota2 + $nota3 / 3;
+
+    if($result >= 6){
+        echo "Aprovado!";
+    } elseif ( $result >=4 || $result <=5 ){
+        echo "Recuperação";
+    } else{
+        echo "Reprovado";
+    }
+?>
